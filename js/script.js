@@ -20,7 +20,7 @@
 
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
+    
 });
 
 function pauseAudio() { 
@@ -92,11 +92,8 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 14th Feb, 2021', styles);
+console.log('\n\n%c SAVE THE DATE: 22th & 23th Jan, 2023', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Sarthak Jain', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Saravana & Sumathi', styles1, styles2);
 
-console.log(
-    `%c शादी में जलूल जलूल आना होगा \n\n`,
-    'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
-)
+
